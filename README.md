@@ -1,12 +1,12 @@
 # 🖥️ GUIpyqt-Arduino
 
-Este repo contiene todo el material para aprender a armar interfaces gráficas en Python usando **PyQt5**, y conectar una **señal analógica de Arduino** para visualizarla en tiempo real o plotear una imagen y aplicarle filtros.
+Este repo contiene todo el material para aprender a armar interfaces gráficas en Python usando **PyQt/PySide**, y conectar una **señal analógica de Arduino** para visualizarla en tiempo real o plotear una imagen y aplicarle filtros.
 
 Ideal para proyectos de bioingeniería, procesamiento de señales o imágenes y prototipos biomédicos.
 
 ---
 
-## 🎯 ¿Qué vas a aprender?
+## ¿Qué vas a aprender?
 
 - Crear interfaces gráficas simples en Python (PyQt5).
 - Conectarte con un Arduino vía Serial (puerto COM).
@@ -20,7 +20,7 @@ Ideal para proyectos de bioingeniería, procesamiento de señales o imágenes y 
 Pequeña interfaz gráfica que muestra una ventana con un botón.  
 Ideal para entender la estructura básica de un programa en PyQt5.
 
-🛠️ Aprende:
+Aprende:
 - Crear una ventana.
 - Agregar widgets básicos (botones).
 - Manejar eventos de click.
@@ -31,7 +31,7 @@ Ideal para entender la estructura básica de un programa en PyQt5.
 
 Carga una imagen (ej: una RMN o una micrografía), la muestra en la interfaz y permite aplicarle filtros básicos.
 
-🛠️ Aprende:
+Aprende:
 - Cargar y mostrar imágenes.
 - Usar `pyqtgraph` o `matplotlib` embebido.
 - Aplicar un filtro (ejemplo: media, gaussiano o sobel).
@@ -42,7 +42,7 @@ Carga una imagen (ej: una RMN o una micrografía), la muestra en la interfaz y p
 
 Conecta el Arduino vía puerto serie, lee una señal analógica en tiempo real y la plotea en la interfaz.
 
-🛠️ Aprende:
+Aprende:
 - Comunicación serial (PySerial).
 - Adquisición de datos en tiempo real.
 - Ploteo dinámico de señales tipo ECG o EMG.
@@ -51,7 +51,7 @@ Conecta el Arduino vía puerto serie, lee una señal analógica en tiempo real y
 
 ---
 
-## 🚀 Cómo empezar
+## Cómo empezar
 
 [![Abrir presentación](https://img.shields.io/badge/Ver_Presentación-PDF-blue)](/Steps.pdf)
 

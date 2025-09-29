@@ -8,7 +8,7 @@ Ideal para proyectos de bioingeniería, procesamiento de señales o imágenes y 
 
 ## ¿Qué vas a aprender?
 
-- Crear interfaces gráficas simples en Python (PyQt5).
+- Crear interfaces gráficas simples en Python (PyQt/PySide).
 - Conectarte con un Arduino vía Serial (puerto COM).
 - Leer y graficar una señal analógica en vivo.
 - Pltear una imagen y aplicarle filtros
@@ -18,9 +18,9 @@ Ideal para proyectos de bioingeniería, procesamiento de señales o imágenes y 
 ## 01_primer_gui
 
 Pequeña interfaz gráfica que muestra una ventana con un botón.  
-Ideal para entender la estructura básica de un programa en PyQt5.
+La idea es entender la estructura básica de una gui en PyQt/PySide.
 
-Aprende:
+Se aprende a:
 - Crear una ventana.
 - Agregar widgets básicos (botones).
 - Manejar eventos de click.
@@ -29,9 +29,9 @@ Aprende:
 
 ## 02_plotear_imagen_filtrar
 
-Carga una imagen (ej: una RMN o una micrografía), la muestra en la interfaz y permite aplicarle filtros básicos.
+Carga una imagen (ej: una RMN), la muestra en la interfaz y permite aplicarle filtros básicos.
 
-Aprende:
+Se aprende a:
 - Cargar y mostrar imágenes.
 - Usar `pyqtgraph` o `matplotlib` embebido.
 - Aplicar un filtro (ejemplo: media, gaussiano o sobel).
@@ -42,7 +42,7 @@ Aprende:
 
 Conecta el Arduino vía puerto serie, lee una señal analógica en tiempo real y la plotea en la interfaz.
 
-Aprende:
+Se aprende:
 - Comunicación serial (PySerial).
 - Adquisición de datos en tiempo real.
 - Ploteo dinámico de señales tipo ECG o EMG.
@@ -61,4 +61,4 @@ Aprende:
 
 ---
 
-> Este proyecto te va a ayudar a mezclar hardware y software para visualizar señales de una forma simple y potente. Animate a probar y modificar todo!
+> Este proyecto te va a ayudar a mezclar hardware y software para visualizar señales de una forma simple y potente.
